@@ -1,0 +1,16 @@
+title: BITOFCODE
+email: contact@lsferreira.net
+description: A little corner of the world!
+baseurl: ""
+url: "https://openblog.lsferreira.net"
+twitter_username: ljmf00
+github_username:  ljmf00
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
