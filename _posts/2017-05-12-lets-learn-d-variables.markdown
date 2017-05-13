@@ -12,16 +12,56 @@ In programming, a [**variable**](https://en.wikipedia.org/wiki/Variable_(compute
 #### **Basic Data Types**
 
 There are following some basic types of variables in D:
-| Keyword | Default Initializer | Description                                                                                                          |
-|---------|---------------------|----------------------------------------------------------------------------------------------------------------------|
-| void    | –                   | no type                                                                                                              |
-| bool    | false               | boolean value                                                                                                        |
-| byte    | 0                   | signed 8 bits                                                                                                        |
-| int     | 0                   | signed 32 bits                                                                                                       |
-| float   | float.nan           | 32 bit floating point                                                                                                |
-| double  | double.nan          | 64 bit floating point                                                                                                |
-| real    | real.nan            | largest FP size implemented in hardwareImplementation Note: 80 bits for x86 CPUs or double size, whichever is larger |
-| char    | 0xFF                | unsigned 8 bit (UTF-8 code unit)                                                                                     |
+<table>
+<tbody>
+<tr>
+<th class="donthyphenate" style="text-align: center;"><b>Keyword</b></th>
+<th class="donthyphenate"><b>Default Initializer
+</b></th>
+<th class="donthyphenate" style="text-align: center;"><b>Description</b></th>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">void</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">-</span></td>
+<td>no type</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">bool</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">false</span></td>
+<td>boolean value</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">byte</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">0</span></td>
+<td>signed 8 bits</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">int</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">0</span></td>
+<td>signed 32 bits</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">float</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">float.nan</span></td>
+<td>32 bit floating point</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">double</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">double.nan</span></td>
+<td>64 bit floating point</td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">real</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">real.nan</span></td>
+<td>largest FP size implemented in hardware<span class="footnote">Implementation Note: 80 bits for x86 CPUs or <span class="d_inlinecode donthyphenate notranslate">double</span> size, whichever is larger</span></td>
+</tr>
+<tr>
+<td><span class="d_inlinecode donthyphenate notranslate">char</span></td>
+<td><span class="d_inlinecode donthyphenate notranslate">0xFF</span></td>
+<td>unsigned 8 bit (UTF-8 code unit)</td>
+</tr>
+</tbody>
+</table>
 For more data types, click [here](https://dlang.org/spec/type.html#basic-data-types).
 
 # Variable Definition
